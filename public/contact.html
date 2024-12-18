@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+
+</head>
+
+<body>
+     <!-- ****************Navigation section************ -->
+     <nav class="p-4 bg-slate-600">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">St.Paul School and Jr.College</a>
+            <div class="hidden md:flex space-x-4 ">
+                <a href="index.html" class="text-white hover:bg-gray-700 px-3 py-2 rounded">Home</a>
+                <a href="about.html" class="text-white hover:bg-gray-700 px-3 py-2 rounded">About</a>
+                <a href="contact.html" class="text-white hover:bg-gray-700 px-3 py-2 rounded">Contact</a>
+                <a href="academics.html" class="text-white hover:bg-gray-700 px-3 py-2 rounded">Academic</a>
+                <a href="events.html" class="text-white hover:bg-gray-700 px-3 py-2 rounded">Events & News</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-black focus:outline-none ">
+                   <img class="h-9" src="/menu-bar.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden flex-col text-center mt-10 text-lg">
+            <a href="index.html" class="block text-white hover:bg-gray-700 px-3 py-2 rounded">Home</a>
+            <a href="about.html" class="block text-white hover:bg-gray-700 px-3 py-2 rounded">About</a>
+            <a href="contact.html" class="block text-white  hover:bg-gray-700 px-3 py-2 rounded">Contact</a>
+            <a href="academics.html" class="block text-white hover:bg-gray-700 px-3 py-2 rounded">Academic</a>
+            <a href="events.html" class="block text-white hover:bg-gray-700 px-3 py-2 rounded">Events & News</a>
+        </div>
+    </nav>
+    <!-- *******************Navigation Section End *********** -->
+
+
+    <div class="about-heading h-96 w-full flex items-center justify-center"
+        style=" background-image: url('https://images.unsplash.com/photo-1488372759477-a7f4aa078cb6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+        <h1 class="text-white font-bold text-5xl">Contact</h1>
+    </div>
+
+    <h1 class="md:text-4xl font-bold hidden md:block text-center opacity-90 mt-10">Contact us for Any Query</h1>
+
+    <div class="h-auto md:flex justify-around items-center flex-wrap  shrink mt-5 overflow-hidden">
+
+
+        <div class="p-8 w-full m-auto max-w-md">
+            <h2 class="text-3xl font-bold opacity-90 ">Get in Touch</h2>
+            <p class="text-sm opacity-70 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vero
+                laborum reprehenderit consectetur dolore voluptatum nobis dignissimos quia, cupiditate incidunt.</p>
+
+            <div class="flex items-center  mt-5 space-x-2">
+                <img class="h-7" src="/location-png.png" alt="">
+                <h3 class="text-xl font-bold opacity-80">Office</h3>
+            </div>
+            <p class="text-sm opacity-70 mt-2">Laxmi Ben Chedda Park Cooperative Housing Society, 1, Achole Rd, Shree
+                Ram Sankul Society, Moregaon Talao, chandan naka, Nalasopara East, Nala Sopara, Maharashtra 401209</p>
+
+            <div class="flex items-center  mt-5 space-x-2">
+                <img class="h-7" src="/email-logo.svg" alt="">
+                <h3 class="text-lg font-bold opacity-80">Email</h3>
+            </div>
+            <p class="text-sm opacity-70 mt-1">something123@gmail.com</p>
+
+            <div class="flex items-center  mt-5 space-x-2">
+                <img class="h-7" src="/phone.svg" alt="">
+                <h3 class="text-lg font-bold opacity-80">Phone</h3>
+            </div>
+            <p class="text-sm opacity-70 mt-1">+91 800-0349-0223</p>
+        </div>
+
+
+        <iframe class="h-96 w-96 grow  shrink m-auto"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9380529622335!2d72.8212672747288!3d19.415082341241035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a94641337763%3A0xeb074b0a78f3a5c!2sreliable%20prestige%2C%20Laxmi%20Ben%20Chedda%20Park%20Cooperative%20Housing%20Society%2C%201%2C%20Achole%20Rd%2C%20Shree%20Ram%20Sankul%20Society%2C%20Moregaon%20Talao%2C%20chandan%20naka%2C%20Nalasopara%20East%2C%20Nala%20Sopara%2C%20Maharashtra%20401209!5e0!3m2!1sen!2sin!4v1719200348012!5m2!1sen!2sin"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+
+        <div class="p-8 w-full m-auto max-w-md">
+            <form action="#" method="POST" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name"
+                        class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-slate-700 focus:border-slate-400">
+                </div>
+                <div>
+                    <label for="name" class="block text-gray-700">Phone Number</label>
+                    <input type="text" id="name" name="name"
+                        class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-slate-700 focus:border-slate-400">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email"
+                        class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+                <div>
+                    <label for="comment" class="block text-gray-700">Comment</label>
+                    <textarea id="comment" name="comment" rows="4"
+                        class="mt-1 block w-full p-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                </div>
+                <div>
+                    <button type="submit"
+                        class="w-full bg-slate-700 text-white p-2 rounded-md hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    <footer class="h-10 flex items-center justify-center bg-slate-600 text-white">
+        <h3>&copy; St.Paul School and Jr.College</h3>
+    </footer>
+
+    <script src="menu-btn.js"></script>
+</body>
+
+</html>
